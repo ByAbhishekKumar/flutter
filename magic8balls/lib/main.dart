@@ -4,6 +4,7 @@ import 'dart:math';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blueAccent,
@@ -39,7 +40,7 @@ class _MagicBallPageState extends State<MagicBallPage> {
           },
           child: Image.asset('images/ball$magicNo.png'),
         ),
-        I
+
       ],
     );
   }
